@@ -1,0 +1,26 @@
+.cards {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.cards-user {
+	flex: 1 1 250px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card-user-infos {
+	flex-grow: 1;
+	padding-left: 20px;
+}
+
+.card-user h3 {
+	margin-top: 0px;
+}

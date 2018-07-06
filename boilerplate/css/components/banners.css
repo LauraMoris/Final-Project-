@@ -1,0 +1,20 @@
+.banner {
+	background: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 60%), url(../../images/students.jpg);
+	background-size: cover;
+	height: 100vh;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.banner h1 {
+	font-size: 50px;
+	color: white;
+}
+.banner h2 {
+	font-size: 25px;
+	font-family: "Open Sans", "Helvetica", "sans-serif";
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 50px;
+}
